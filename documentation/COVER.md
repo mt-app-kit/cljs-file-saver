@@ -1,7 +1,11 @@
 
-# cljs-file-saver documentation
+### cljs-file-saver
 
-Documentation of the [cljs-file-saver](https://github.com/bithandshake/cljs-file-saver) ClojureScript library
+Functional documentation of the [cljs-file-saver](https://github.com/bithandshake/cljs-file-saver) ClojureScript library
+
+---
+
+
 
 ##### [README](../README.md) > DOCUMENTATION
 
@@ -11,5 +15,5 @@ Documentation of the [cljs-file-saver](https://github.com/bithandshake/cljs-file
 
 ---
 
-This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.
+<sub>This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.</sub>
 

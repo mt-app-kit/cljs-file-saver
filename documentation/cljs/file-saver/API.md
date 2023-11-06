@@ -1,11 +1,17 @@
 
-# file-saver.api ClojureScript namespace
+### file-saver.api
+
+Functional documentation of the file-saver.api ClojureScript namespace
+
+---
 
 ##### [README](../../../README.md) > [DOCUMENTATION](../../COVER.md) > file-saver.api
 
 ### Index
 
 - [save-file!](#save-file)
+
+---
 
 ### save-file!
 
@@ -56,5 +62,5 @@
 
 ---
 
-This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.
+<sub>This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.</sub>
 
