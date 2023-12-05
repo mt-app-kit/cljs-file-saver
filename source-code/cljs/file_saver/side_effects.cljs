@@ -22,6 +22,6 @@
   ; (save-file! {:uri      "/images/my-image.jpg"}
   ;              :filename "my-image.jpg"})
   [options]
-  (letfn [(f [] (-> "file-saver" dom/get-element-by-id .click))]
-         (temporary-component/append-component! [views/file-saver options] f)
+  (letfn [(f0 [] (-> "file-saver" dom/get-element-by-id .click))]
+         (temporary-component/append-component! [views/file-saver options] f0)
          (temporary-component/remove-component!)))
