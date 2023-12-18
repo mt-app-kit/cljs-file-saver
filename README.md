@@ -10,7 +10,7 @@ files to the user's device.
 
 ```
 {:deps {bithandshake/cljs-file-saver {:git/url "https://github.com/bithandshake/cljs-file-saver"
-                                      :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}
+                                      :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}}
 ```
 
 ### Current version

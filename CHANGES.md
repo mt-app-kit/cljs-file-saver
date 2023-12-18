@@ -1,8 +1,4 @@
 
-# Changelog
+### [0.1.2.5] - 2023-04-21
 
-## [0.1.2.5] - 2023-04-21
-
-### Added
-
-- CHANGES.md
+- CHANGES.md [added]
