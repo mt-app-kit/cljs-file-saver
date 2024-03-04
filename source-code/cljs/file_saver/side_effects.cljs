@@ -1,8 +1,8 @@
 
 (ns file-saver.side-effects
-    (:require [dom.api                 :as dom]
-              [file-saver.views        :as views]
-              [temporary-component.api :as temporary-component]))
+    (:require [dom.api :as dom]
+              [file-saver.views :as views]
+              [hidden-container.api :as hidden-container]))
 
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
@@ -23,5 +23,5 @@
   ;              :filename "my-image.jpg"})
   [options]
   (letfn [(f0 [] (-> "file-saver" dom/get-element-by-id .click))]
-         (temporary-component/append-component! [views/file-saver options] f0)
-         (temporary-component/remove-component!)))
+         (hidden-container/append-component! [views/file-saver options] f0)
+         (hidden-container/remove-component!)))
