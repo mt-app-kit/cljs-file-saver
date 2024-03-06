@@ -1,7 +1,7 @@
 
 (ns file-saver.side-effects
-    (:require [dom.api :as dom]
-              [file-saver.views :as views]
+    (:require [dom.api              :as dom]
+              [file-saver.views     :as views]
               [hidden-container.api :as hidden-container]))
 
 ;; ----------------------------------------------------------------------------
