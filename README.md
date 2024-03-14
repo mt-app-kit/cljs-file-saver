@@ -17,13 +17,13 @@ files to the user's device.
 
 Check out the latest commit on the [release branch](https://github.com/bithandshake/cljs-file-saver/tree/release).
 
-### Documentation
-
-The <strong>cljs-file-saver</strong> functional documentation is [available here](https://bithandshake.github.io/cljs-file-saver).
-
 ### Changelog
 
 You can track the changes of the <strong>cljs-file-saver</strong> library [here](CHANGES.md).
+
+# Documentation
+
+The <strong>cljs-file-saver</strong> functional documentation is [available here](https://bithandshake.github.io/cljs-file-saver).
 
 # Usage
 
