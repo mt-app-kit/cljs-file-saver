@@ -5,5 +5,5 @@
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
 
-; @redirect (file-saver.side-effects)
+; @redirect (file-saver.side-effects/*)
 (def save-file! side-effects/save-file!)

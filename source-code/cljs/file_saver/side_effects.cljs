@@ -8,6 +8,9 @@
 ;; ----------------------------------------------------------------------------
 
 (defn save-file!
+  ; @description
+  ; Saves the given data URL or the given URI as a file to the client device.
+  ;
   ; @param (map) options
   ; {:data-url (string)(opt)
   ;  :filename (string)(opt)
@@ -23,5 +26,4 @@
   ;              :filename "my-image.jpg"})
   [options]
   (letfn [(f0 [] (-> "file-saver" dom/get-element-by-id .click))]
-         (hidden-container/append-component! [views/file-saver options] f0)
-         (hidden-container/remove-component!)))
+         (hidden-container/append-component! :file-saver [views/file-saver options] {:auto-remove? true :callback-f f0 :lifetime 500})))
