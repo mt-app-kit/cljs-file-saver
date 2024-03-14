@@ -9,7 +9,7 @@
 
 (defn save-file!
   ; @description
-  ; Saves the given data URL or the given URI as a file to the client device.
+  ; Saves the given data URL or URI as a file on the client device.
   ;
   ; @param (map) options
   ; {:data-url (string)(opt)

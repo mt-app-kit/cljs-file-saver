@@ -3,7 +3,7 @@
 
 ### Overview
 
-The <strong>cljs-file-saver</strong> is a simple file saver tool for Clojure projects.
+The <strong>cljs-file-saver</strong> is a simple client-side file-saving tool for Clojure projects
 
 ### deps.edn
 
